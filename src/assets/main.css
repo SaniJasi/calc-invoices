@@ -1,0 +1,100 @@
+@import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  transition: opacity 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover,
+  button:hover {
+    opacity: 0.8;
+  }
+}
+
+.btn {
+  font-size: 14px;
+  line-height: 1.2;
+  color: #fff;
+  text-align: center;
+  padding: 16px 20px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: opacity .2s;
+  background-color: transparent;
+}
+
+.btn--primary {
+  background-color: #e67e22;
+}
+
+.btn--full {
+  width: 100%;
+}
+
+.btn--outline {
+  border-color: #e67e22;
+  color: #e67e22;
+}
+
+.success {
+  font-size: 20px;
+  color: #2ecc71;
+  text-align: center;
+  padding: 20px 0;
+}
+
+table {
+  text-align: center;
+  width: 100%;
+  margin: 50px 0 0;
+  border: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+table th {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #fff;
+  height: 50px;
+  background-color: #34495e;
+  border: 0;
+  padding: 5px 10px;
+}
+
+table td {
+  font-size: 14px;
+  color: #fff;
+  padding: 8px 10px;
+  background-color: #95a5a6;
+  border-bottom: 1px solid #000;
+}
+
+table th:nth-child(2),
+table td:nth-child(2) {
+  text-align: left;
+}
+
+table td h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  justify-content: space-between;
+}
